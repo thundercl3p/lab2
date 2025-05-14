@@ -1,10 +1,11 @@
+// Simple program that greets the user
 #include <iostream>
-using namespace std;
+#include <string>
 
 int main() {
-    string name;
-    cout << "Enter your name: ";
-    cin >> name;
-    cout << "Hello world from " << name << endl;
+    std::string name;
+    std::cout << "Enter your name: ";  // Prompt for user input
+    std::cin >> name;                  // Read user input
+    std::cout << "Hello world from " << name << std::endl;  // Output greeting
     return 0;
 }
